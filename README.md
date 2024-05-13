@@ -7,9 +7,9 @@ A hook for running `python3 -m unittest discover` within your project upon runni
 Simply add the following to your `.pre-commit-config.yaml`:
 
 ```yaml
--   repo: https://github.com/sharkwouter/python-unittest
+-   repo: https://github.com/maximishchenko/python-unittest
     rev: 1.0.0
     hooks:
-    -   id: python-unittest
+    -   id: python-unittest-win
 ```
 
